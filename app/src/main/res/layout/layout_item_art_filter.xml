@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/item_art_filter"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.comix.rounded.RoundedCornerImageView
+            android:layout_gravity="center"
+            android:id="@+id/art_filter_item"
+            android:focusable="true"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            app:cornerBottomDisable="false"
+            app:cornerColor="@color/bottom_back"
+            app:cornerLeftDisable="false"
+            app:cornerRadius="3dp"
+            app:cornerRightDisable="false"
+            app:cornerTopDisable="false" />
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/img_selected"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:src="@drawable/border_rectangle" />
+    </FrameLayout>
+
+    <TextView
+        android:textColor="@drawable/press_unpress_icon"
+        android:layout_gravity="center"
+        android:id="@+id/art_filter_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="test"
+        android:fontFamily="@font/poppinsregular" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_sticker_lay"
+    android:clickable="true"
+    android:layout_width="@dimen/_50sdp"
+    android:layout_height="@dimen/_50sdp"
+    style="@style/SelectableItemBackgroundround">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+
+        <FrameLayout
+            android:id="@+id/sticker_lay"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/img_sticker"
+                android:padding="7dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

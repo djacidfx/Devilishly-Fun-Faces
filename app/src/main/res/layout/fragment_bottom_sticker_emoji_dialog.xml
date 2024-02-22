@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/llFace_option"
+    android:background="#1f1f27"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <HorizontalScrollView
+                android:id="@+id/Tab_sticker_tools"
+                android:scrollbars="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                app:layout_constraintEnd_toStartOf="@+id/close_btn"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                style="@style/horizontalScoolbar">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:id="@+id/stickerPack11"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:textSize="14sp"
+                            android:textColor="@drawable/press_unpress_icon"
+                            android:gravity="center"
+                            android:id="@+id/stickerPack11_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Horns" />
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@+id/tab_sticker_line11"
+                            android:visibility="visible"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="3dp"
+                            android:src="@drawable/round_background"
+                            app:tint="@drawable/press_unpress_sticker" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:id="@+id/stickerPack9"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:textSize="14sp"
+                            android:textColor="@drawable/press_unpress_icon"
+                            android:gravity="center"
+                            android:id="@+id/stickerPack9_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Cheeks" />
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@+id/tab_sticker_line9"
+                            android:visibility="visible"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="3dp"
+                            android:src="@drawable/round_background"
+                            app:tint="@drawable/press_unpress_sticker" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:id="@+id/stickerPack14"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:textSize="14sp"
+                            android:textColor="@drawable/press_unpress_icon"
+                            android:gravity="center"
+                            android:id="@+id/stickerPack14_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Neon_Crown" />
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@+id/tab_sticker_line14"
+                            android:visibility="visible"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="3dp"
+                            android:src="@drawable/round_background"
+                            app:tint="@drawable/press_unpress_sticker" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:id="@+id/stickerPack15"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:textSize="14sp"
+                            android:textColor="@drawable/press_unpress_icon"
+                            android:gravity="center"
+                            android:id="@+id/stickerPack15_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Neon_Wing" />
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@+id/tab_sticker_line15"
+                            android:visibility="visible"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="3dp"
+                            android:src="@drawable/round_background"
+                            app:tint="@drawable/press_unpress_sticker" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:id="@+id/stickerPack10"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:textSize="14sp"
+                            android:textColor="@drawable/press_unpress_icon"
+                            android:gravity="center"
+                            android:id="@+id/stickerPack10_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Heart_Crown" />
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@+id/tab_sticker_line10"
+                            android:visibility="visible"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="3dp"
+                            android:src="@drawable/round_background"
+                            app:tint="@drawable/press_unpress_sticker" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:id="@+id/stickerPack2"
+                        android:background="?attr/selectableItemBackground"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:textSize="14sp"
+                            android:textColor="@drawable/press_unpress_icon"
+                            android:gravity="center"
+                            android:id="@+id/stickerPack2_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/arrow" />
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@+id/tab_sticker_line2"
+                            android:visibility="visible"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="3dp"
+                            android:src="@drawable/round_background"
+                            app:tint="@drawable/press_unpress_sticker" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:id="@+id/stickerPack3"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:textSize="14sp"
+                            android:textColor="@drawable/press_unpress_icon"
+                            android:gravity="center"
+                            android:id="@+id/stickerPack3_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rainbow" />
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@+id/tab_sticker_line3"
+                            android:visibility="visible"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="3dp"
+                            android:src="@drawable/round_background"
+                            app:tint="@drawable/press_unpress_sticker" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:id="@+id/stickerPack4"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:textSize="14sp"
+                            android:textColor="@drawable/press_unpress_icon"
+                            android:gravity="center"
+                            android:id="@+id/stickerPack4_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Orhers" />
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@+id/tab_sticker_line4"
+                            android:visibility="visible"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="3dp"
+                            android:src="@drawable/round_background"
+                            app:tint="@drawable/press_unpress_sticker" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:id="@+id/stickerPack12"
+                        android:background="?attr/selectableItemBackground"
+                        android:visibility="visible"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:textSize="14sp"
+                            android:textColor="@drawable/press_unpress_icon"
+                            android:gravity="center"
+                            android:id="@+id/stickerPack12_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Frame" />
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@+id/tab_sticker_line12"
+                            android:visibility="visible"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="3dp"
+                            android:src="@drawable/round_background"
+                            app:tint="@drawable/press_unpress_sticker" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:id="@+id/stickerPack1"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:textSize="14sp"
+                            android:textColor="@drawable/press_unpress_icon"
+                            android:gravity="center"
+                            android:id="@+id/stickerPack1_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/emoji" />
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@+id/tab_sticker_line1"
+                            android:visibility="visible"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="3dp"
+                            android:src="@drawable/round_background"
+                            app:tint="@drawable/press_unpress_sticker" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:id="@+id/stickerPack5"
+                        android:background="?attr/selectableItemBackground"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:textSize="14sp"
+                            android:textColor="@drawable/press_unpress_icon"
+                            android:gravity="center"
+                            android:id="@+id/stickerPack5_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/halloween" />
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@+id/tab_sticker_line5"
+                            android:visibility="visible"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="3dp"
+                            android:src="@drawable/round_background"
+                            app:tint="@drawable/press_unpress_sticker" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:id="@+id/stickerPack13"
+                        android:background="?attr/selectableItemBackground"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:textSize="14sp"
+                            android:textColor="@drawable/press_unpress_icon"
+                            android:gravity="center"
+                            android:id="@+id/stickerPack13_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Glow" />
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@+id/tab_sticker_line13"
+                            android:visibility="visible"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="3dp"
+                            android:src="@drawable/round_background"
+                            app:tint="@drawable/press_unpress_sticker" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:id="@+id/stickerPack6"
+                        android:background="?attr/selectableItemBackground"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:textSize="14sp"
+                            android:textColor="@drawable/press_unpress_icon"
+                            android:gravity="center"
+                            android:id="@+id/stickerPack6_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/party" />
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@+id/tab_sticker_line6"
+                            android:visibility="visible"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="3dp"
+                            android:src="@drawable/round_background"
+                            app:tint="@drawable/press_unpress_sticker" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:id="@+id/stickerPack7"
+                        android:background="?attr/selectableItemBackground"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:textSize="14sp"
+                            android:textColor="@drawable/press_unpress_icon"
+                            android:gravity="center"
+                            android:id="@+id/stickerPack7_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/summer" />
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@+id/tab_sticker_line7"
+                            android:visibility="visible"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="3dp"
+                            android:src="@drawable/round_background"
+                            app:tint="@drawable/press_unpress_sticker" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:id="@+id/stickerPack8"
+                        android:background="?attr/selectableItemBackground"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:textSize="14sp"
+                            android:textColor="@drawable/press_unpress_icon"
+                            android:gravity="center"
+                            android:id="@+id/stickerPack8_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/text_message" />
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@+id/tab_sticker_line8"
+                            android:visibility="visible"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="3dp"
+                            android:src="@drawable/round_background"
+                            app:tint="@drawable/press_unpress_sticker" />
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <ImageView
+                android:id="@+id/close_btn"
+                android:background="@drawable/close_view"
+                android:padding="7dp"
+                android:visibility="gone"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_close_without_bg"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/Tab_sticker_tools"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvEmoji"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/horizontalScoolbar" />
+
+            <TextView
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:id="@+id/sticker_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loading"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_centerHorizontal="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/rvEmoji" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

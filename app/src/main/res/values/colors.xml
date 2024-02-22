@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#181821</color>
+    <color name="colorPrimary">#181821</color>
+    <color name="colorPrimaryDark">#0f0f18</color>
+
+
+    <color name="horizontal_background_color">#ffaeaeae</color>
+    <color name="horozontal_listview_color">#00000000</color>
+    <color name="brown_color_picker">#af593e</color>
+
+    <color name="app_color">#0beaff</color>
+    <color name="background_color">#0f0f15</color>
+    <color name="black">#ff000000</color>
+    <color name="blue_color_picker">#0066ff</color>
+    <color name="bottom_back">#1f1f27</color>
+    <color name="bottom_bg">#eeeeee</color>
+    <color name="color_table">#aa000000</color>
+    <color name="crop_unselected_color">#888888</color>
+    <color name="default_text_color">#000</color>
+    <color name="filter_image_color">#fff</color>
+    <color name="footer_bg">#ff555555</color>
+    <color name="green_color_picker">#01a368</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="icon_color">#a6a6ac</color>
+    <color name="light_gray">#f0f0f0</color>>
+    <color name="orange_color_picker">#ff861f</color>
+    <color name="purple_200">#ffbb86fc</color>
+    <color name="purple_500">#ff6200ee</color>
+    <color name="purple_700">#ff3700b3</color>
+    <color name="red_color_picker">#ed0a3f</color>
+    <color name="red_orange_color_picker">#ff3f34</color>
+    <color name="select_image_dialog_color">#dd222222</color>
+    <color name="selected_effect_color">#21aae7</color>
+    <color name="selected_text_color">#e46b00</color>
+    <color name="selector_item_primary_color">#c33479</color>
+    <color name="semi_transparent">#33000000</color>
+    <color name="shaderactivity_surround_color">#e8e8e8</color>
+    <color name="sky_blue_color_picker">#76d7ea</color>
+    <color name="star_selected_color">#ffd800</color>
+    <color name="sticker_color">#14a668</color>
+    <color name="teal_200">#ff03dac5</color>
+    <color name="teal_700">#ff018786</color>
+    <color name="text_color">#fbfbfc</color>
+    <color name="text_color_item">#bbbbbd</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent1">#cc000000</color>
+    <color name="unSelectColor">#34343d</color>
+    <color name="unselect_Scale_color">#888888</color>
+    <color name="violet_color_picker">#8359a3</color>
+    <color name="white">#ffffffff</color>
+    <color name="yellow_color_picker">#fbe870</color>
+    <color name="yellow_green_color_picker">#c5e17a</color>
+
+</resources>

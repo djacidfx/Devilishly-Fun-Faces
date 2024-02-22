@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:loginView="http://schemas.android.com/apk/res-auto"
+    android:gravity="right"
+    android:orientation="horizontal"
+    android:id="@+id/listview_layout"
+    android:paddingRight="10dp"
+    android:layout_width="60dp"
+    android:layout_height="wrap_content">
+
+    <com.neonhrn.eeffct.ambilwarna.ColorHistoryView
+        android:id="@+id/color_history_view"
+        android:paddingRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

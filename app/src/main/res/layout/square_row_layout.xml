@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="5dp">
+
+    <FrameLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.comix.rounded.RoundedCornerImageView
+            android:id="@+id/main_image"
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:scaleType="centerCrop"
+            app:cornerBottomDisable="false"
+            app:cornerColor="@color/background_color"
+            app:cornerLeftDisable="false"
+            app:cornerRadius="5dp"
+            app:cornerRightDisable="false"
+            app:cornerTopDisable="false" />
+
+        <LinearLayout
+            android:gravity="bottom|center_horizontal"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="horizontal"
+            android:background="@drawable/bottom_corner"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:weightSum="2">
+
+            <TextView
+                android:textSize="12sp"
+                android:textColor="@color/text_color"
+                android:gravity="start|center_vertical"
+                android:layout_gravity="center"
+                android:id="@+id/image_name"
+                android:paddingLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Imge_123"
+                android:singleLine="true"
+                android:layout_weight="2"
+                android:fontFamily="@font/poppinsmedium" />
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/share_delete_option"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"
+                style="@style/SelectableItemBackgroundround">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_more" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/select_square"
+            android:background="@drawable/select_round_background"
+            android:visibility="gone"
+            android:layout_width="25dp"
+            android:layout_height="25dp">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/img_square"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:src="@drawable/ic_check_all"
+                app:tint="@color/white" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
